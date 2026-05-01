@@ -1,0 +1,42 @@
+Paso 2.1 (Corregido): Crear Virtual Environment
+
+Ejecuta esto en tu terminal:
+bash
+
+cd ~/Escritorio/TFG3/TFG2-BBDD
+python3 -m venv venv
+
+Esto crea una carpeta venv con un entorno aislado. Ahora actívalo:
+bash
+
+source venv/bin/activate
+
+Deberías ver esto en tu terminal:
+Code
+
+(venv) admi@admi-OMEN-Laptop-15-ek0xxx:~/Escritorio/TFG3/TFG2-BBDD$
+
+Nota el (venv) al inicio = está activado ✅
+📦 Paso 2.2: Instala las librerías
+
+Ahora sí:
+bash
+
+pip install flask flask-cors bcrypt psycopg2-binary
+
+Debería instalar sin errores esta vez. ✅
+✅ Verifica que funcionó
+bash
+
+python3 -c "import flask, flask_cors, bcrypt, psycopg2; print('✅ Todas las librerías instaladas')"
+
+Si ves ✅ Todas las librerías instaladas, perfecto.
+
+
+
+Importante activado el entorno virtual
+
+source venv/bin/activate
+
+admin admin123
+juan user123
